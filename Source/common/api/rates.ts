@@ -54,7 +54,7 @@ const CCApi = 'https://mysafewallet.io/api';
 const CCRates = (symbols: string[]) => {
   const tsyms = rateSymbols.symbols.all.concat(symbols as any).join(',');
   // return `${CCApi}/prices?currencies=${tsyms}`;
-  return `${CCApi}/prices?currencies=VET,VTHO,SHA`;
+  return `${CCApi}/prices?currencies=VET,VTHO,SHA,PLA,DBET`; // OCE,TIC not listed on CC
 };
 
 export interface CCResponse {

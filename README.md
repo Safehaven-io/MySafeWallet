@@ -6,16 +6,6 @@
 
 
 
-## Contents
-
-1. [Introduction](#Introduction)
-2. [Upcoming major updates](#upcomingmajorupdates)
-3. [Wyaddingacustomnode](#Wy adding a custom node)
-3.  1. [Requirements](#requirements)
-    2. [Runningtheapp](#Running the App)
-    3. [Development](#Development)
-4. [NetworkArchitecture](#Network Architecture)  
-  
     
 
 ## Introduction

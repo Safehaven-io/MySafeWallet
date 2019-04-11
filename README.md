@@ -1,6 +1,4 @@
-
-
-#[![N|Solid](https://safehaven.io/img/bannerMSW.jpeg)](https://mysafewallet.io/)
+[![N|Solid](https://safehaven.io/img/bannerMSW.jpeg)](https://mysafewallet.io/)
 
 ## Contents
 

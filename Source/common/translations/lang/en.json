@@ -707,7 +707,7 @@
     "ONBOARDING_TEXT_23": "Making sure you're not on a [phishing site]($link)",
     "ONBOARDING_TEXT_24": "Reducing risk by using the [MySafeWallet downloadable app]($link)",
     "ONBOARDING_TEXT_25": "You're ready to get started!",
-    "ONBOARDING_TEXT_26": "Pro-Tip: in order for your funds to be the most secure, we recommend getting a hardware wallet to use with SafeWallet. Here are a few options we love:",
+    "ONBOARDING_TEXT_26": "Pro-Tip: in order for your funds to be the most secure, we recommend getting a hardware wallet to use with SafeWallet.",
     "ONBOARDING_TEXT_27": "Get a Trezor",
     "ONBOARDING_TEXT_28": "Get a Ledger",
     "ONBOARDING_TEXT_29": "Need more info before you dive in? See [Support Center]($link)",

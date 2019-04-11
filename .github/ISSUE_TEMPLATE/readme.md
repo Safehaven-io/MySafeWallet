@@ -1,7 +1,4 @@
-[![N|Solid](https://safehaven.io/files/bannerMSW.jpe)](https://mysafewallet.io)
-
-
-
+[![N|Solid](https://safehaven.io/files/bannerMSW.jpeg)](https://mysafewallet.io)
 
 
 # TIP : MSW Improvements Section

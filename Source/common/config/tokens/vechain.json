@@ -28,5 +28,10 @@
     "address": "0x0ce6661b4ba86a0ea7ca2bd86a0de87b0b860f14",
     "symbol": "OCE",
     "decimal": 18
+  },
+  {
+    "address": "0xae4c53b120cba91a44832f875107cbc8fbee185c",
+    "symbol": "YEET",
+    "decimal": 18
   }
 ]

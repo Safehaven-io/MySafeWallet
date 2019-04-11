@@ -14,9 +14,10 @@ We plan to integrate every hot or cold storage wallet that supports the VeChain 
 * Comet only deals with one VET adress, however
   Arkane provides multiple Wallet addresses support, in relaease 1.0.0 MSW only supports the first Wallet listed.
 * Ledger Support : We are reverse Engineering the Vechain Ledger APP in order to interact with it in a secure manner, this will take a few weeks.
-* MySafeWallet Desktop APP releases are upcoming for Windows, Linux and MacOS devices
-* Add VecChainThor Wallet support
-* Add Sync support
+* MySafeWallet Desktop APP releases are upcoming for Windows, Linux and MacOS devices.
+* Add VecChainThor Wallet support.
+* Add Sync support.
+* Safe Node integration : upgrdae your node trough our MySafeWallet.
 
 ## Network Architecture
 

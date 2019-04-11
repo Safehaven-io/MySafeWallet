@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://img.shields.io/readthedocs/:packageName.svg)
 
-[![License](https://img.shields.io/dub/l/:packageName.svg)](source/LICENCE.md)
+[![License](https://img.shields.io/dub/l/:packageName.svg)](https://github.com/Safehaven-io/MySafeWallet/blob/master/Source/LICENSE)
 
 
 

@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "name": "SafeWallet",
+  "description": "Ethereum web interface",
+  "icons": {
+    "60": "/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/firefox_app_60x60.png",
+    "128": "/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/firefox_app_128x128.png",
+    "512": "/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": "SafeWallet",
+    "url": null
+  }
+}

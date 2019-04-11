@@ -1,6 +1,6 @@
 [![N|Solid](https://safehaven.io/img/bannerMSW.jpeg)](https://mysafewallet.io/)
 
-[![Latest Stable Version](https://img.shields.io/readthedocs/:packageName.svg)
+[![Latest Stable Version](https://img.shields.io/readthedocs/:packageName.svg)](https://github.com/Safehaven-io/MySafeWallet/tree/master/Source)
 
 [![License](https://img.shields.io/dub/l/:packageName.svg)](https://github.com/Safehaven-io/MySafeWallet/blob/master/Source/LICENSE)
 

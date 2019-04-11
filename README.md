@@ -16,6 +16,7 @@ We plan to integrate every hot or cold storage wallet that supports the VeChain 
 * Ledger Support : We are reverse Engineering the Vechain Ledger APP in order to interact with it in a secure manner, this will take a few weeks.
 * MySafeWallet Desktop APP releases are upcoming for Windows, Linux and MacOS devices
 * Add VecChainThor Wallet support
+* Add Sync support
 
 ## Network Architecture
 

@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://img.shields.io/readthedocs/:packageName.svg)
 
-[![License](https://img.shields.io/badge/license-BSD_2_Clause-brightgreen.svg?style=flat-square)](LICENCE.md)
+[![License](https://img.shields.io/dub/l/:packageName.svg)](source/LICENCE.md)
 
 
 

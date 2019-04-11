@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Safe Wallet: Your Interface for the VechainThor Blockchain</title>
+    <meta http-equiv="Content-Security-Policy" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="description"
+      content="SafeWallet is a free, open-source interface for interacting with the blockchain."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta property="og:title" content="SafeWallet" />
+    <meta property="og:url" content="https://mysafewallet.io/" />
+    <meta property="og:description" content="SafeWallet is a free, open-source interface for interacting with the blockchain." />
+    <meta property="og:site_name" content="SafeWallet" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/common/assets/images/link-preview.png" />
+    <meta name="twitter:site" content="@SafeHavenIO" />
+    <meta name="twitter:creator" content="@SafeHavenIO" />
+    <meta name="google-site-verification" content="dRWkvANAUNAhNyMnTyc7M7S3lnucotMY8j8R-gsZhbo" />
+    <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-icon-180x180.png"><link rel="apple-touch-icon" sizes="57x57" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-icon-76x76.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-startup-image-320x460.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-startup-image-640x920.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-startup-image-640x1096.png"><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-startup-image-750x1294.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-startup-image-1182x2208.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-startup-image-1242x2148.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-startup-image-748x1024.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-startup-image-1496x2048.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-startup-image-768x1004.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/apple-touch-startup-image-1536x2008.png"><link rel="icon" type="image/png" sizes="16x16" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/favicon-16x16.png"><link rel="icon" type="image/png" sizes="228x228" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/coast-228x228.png"><link rel="icon" type="image/png" sizes="32x32" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/favicon-32x32.png"><link rel="manifest" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/manifest.json"><link rel="shortcut icon" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/favicon.ico"><link rel="yandex-tableau-widget" href="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/yandex-browser-manifest.json"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="SafeWallet"><meta name="application-name" content="SafeWallet"><meta name="mobile-web-app-capable" content="yes"><meta name="msapplication-TileColor" content="#fff"><meta name="msapplication-TileImage" content="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/mstile-144x144.png"><meta name="msapplication-config" content="/common/assets/meta-298b0952f8618684f47c1d8f2f7edb93/browserconfig.xml"><meta name="theme-color" content="#fff"><link href="/vendors~client.35f359bf.css" rel="stylesheet"><link href="/client.9e59bcd3.css" rel="stylesheet"></head>
+
+  <body>
+    <div id="app"></div>
+
+    <noscript class="NoScript">
+      <div class="NoScript-content">
+        <h2>You Must Enable Javascript to Continue</h2>
+        <p>
+          SafeWallet requires Javascript to run. There are no security vulnerabilities as a result of
+          enabling Javascript on SafeWallet, as we do not load any external scripts such as
+          advertisements or trackers.
+        </p>
+        <p>
+          If you are not sure why you are seeing this message, or are unsure of how to enable
+          Javascript, please visit
+          <a href="https://www.enable-javascript.com/" rel="noopener noreferrer" target="_blank"
+            >enable-javascript.com</a
+          >
+          to learn more.
+        </p>
+      </div>
+    </noscript>
+
+    <div class="BadBrowser" style="display: none;">
+      <div class="BadBrowser-content">
+        <h2>Your Browser is Out of Date</h2>
+        <p class="is-desktop">
+          Safe Wallet requires certain features that your browser doesn't offer. Your browser may also
+          be missing security updates that could open you up to vulnerabilities. Please update your
+          browser, or switch to one of the following browsers to continue using Safe Wallet.
+        </p>
+        <p class="is-mobile">
+          Safe Wallet requires certain features that your browser doesn't offer. Please use your
+          device's default browser, or switch to a laptop or desktop computer to continue using
+          Safe Wallet.
+        </p>
+        <div class="BadBrowser-content-browsers is-desktop">
+          <a
+            class="BadBrowser-content-browsers-browser firefox"
+            href="https://www.mozilla.org/en-US/firefox/new/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span class="BadBrowser-content-browsers-browser-name"> Firefox </span>
+          </a>
+          <a
+            class="BadBrowser-content-browsers-browser chrome"
+            href="https://www.google.com/chrome/browser/desktop/index.html"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span class="BadBrowser-content-browsers-browser-name"> Chrome </span>
+          </a>
+          <a
+            class="BadBrowser-content-browsers-browser opera"
+            href="https://www.opera.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span class="BadBrowser-content-browsers-browser-name"> Opera </span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://0x.mysafewallet.io"></script>
+  <script type="text/javascript" src="/badBrowserCheckA.undefined.js"></script><script type="text/javascript" src="/badBrowserCheckB.undefined.js"></script><script type="text/javascript" src="/vendors~client~vendor.undefined.js"></script><script type="text/javascript" src="/vendors~client.undefined.js"></script><script type="text/javascript" src="/client.undefined.js"></script><script type="text/javascript" src="/vendor.undefined.js"></script></body>
+</html>

@@ -1,0 +1,17 @@
+{
+    "environments": {
+        "develop": {
+            "gitUrl": "git@github.com:SafeWalletHQ/SafeWallet.git",
+            "distFolder": "dist/prod",
+            "buildCommand": "yarn && npm run build"
+        },
+        "beta": {
+            "gitUrl": "git@github.com:SafeWalletHQ/SafeWallet-Beta.git",
+            "distFolder": "docs"
+        },
+        "prod": {
+            "gitUrl": "git@github.com:SafeWalletHQ/SafeWallet-Production.git",
+            "distFolder": "docs"
+        }
+    }
+}

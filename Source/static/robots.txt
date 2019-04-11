@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://mysafewallet.io/sitemap.xml

@@ -1,0 +1,12 @@
+[
+  {
+    "address": "0x0000000000000000000000000000456e65726779",
+    "symbol": "VTHO",
+    "decimal": 18
+  },
+  {
+    "address": "0x5db3c8a942333f6468176a870db36eef120a34dc",
+    "symbol": "SHA",
+    "decimal": 18
+  }
+]

@@ -55,7 +55,8 @@ shepherd
 
 export const getShepherdManualMode = () => balancerConfigSelectors.getManualMode(store.getState());
 
-export const getShepherdOffline = () => balancerConfigSelectors.isOffline(store.getState());
+// export const getShepherdOffline = () => balancerConfigSelectors.isOffline(store.getState());
+export const getShepherdOffline = () => false;
 
 export const getShepherdNetwork = () => balancerConfigSelectors.getNetwork(store.getState());
 

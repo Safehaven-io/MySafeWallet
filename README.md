@@ -5,8 +5,7 @@
 [![License](https://img.shields.io/dub/l/:packageName.svg)](https://github.com/Safehaven-io/MySafeWallet/blob/master/Source/LICENSE)
 
 
-
-    
+   
 
 ## Introduction
 

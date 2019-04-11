@@ -33,5 +33,5 @@ yarn build
 building adds output to a folder in `dist/`.
 
 
-## Network Architecture
+
 

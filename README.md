@@ -18,9 +18,11 @@ We plan to integrate every hot or cold storage wallet that supports the VeChain 
 * Add VecChainThor Wallet support.
 * Add Sync support.
 * Safe Node integration : upgrdae your node trough our MySafeWallet.
+* SafeKey : Device-to-Device Backup
 
 ## Network Architecture
 
+Our current setup has the 2 nodes in active/pasive mode.
 [![N|Solid](https://safehaven.io/files/MSW-Architecture.png)](https://safehaven.io/)
 
 [![N|Solid](https://safehaven.io/img/logo_color.png)](https://safehaven.io/)

@@ -22,7 +22,7 @@ We plan to integrate every hot or cold storage wallet that supports the VeChain 
 
 ## Network Architecture
 
-Our current setup has the 2 nodes in active/pasive mode.
+Our current setup has the 2 nodes in active/pasive mode which are mainly used for balance checking etc.
 [![N|Solid](https://safehaven.io/files/MSW-Architecture.png)](https://safehaven.io/)
 
 [![N|Solid](https://safehaven.io/img/logo_color.png)](https://safehaven.io/)

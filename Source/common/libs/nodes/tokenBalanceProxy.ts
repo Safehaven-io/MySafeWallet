@@ -22,7 +22,7 @@ export const tokenBalanceHandler: ProxyHandler<IProvider> = {
     };
 
     const splitBatches = (address: string, tokens: Token[]) => {
-      const batchSize = 10;
+      const batchSize = 1; // to stop a race condition with the return values from web3-gear
       type SplitBatch = { address: string; tokens: Token[] }[];
       const splitBatch: SplitBatch = [];
       for (let i = 0; i < tokens.length; i++) {

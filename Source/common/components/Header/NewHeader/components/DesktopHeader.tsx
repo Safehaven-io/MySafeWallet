@@ -134,7 +134,7 @@ class DesktopHeader extends Component<Props> {
                   </ul>
                 )}
               </li> */}
-              {/* <li
+              { <li
                 className="DesktopHeader-bottom-links-item"
                 onMouseEnter={this.toggleTools}
                 onMouseLeave={this.toggleTools}
@@ -151,7 +151,7 @@ class DesktopHeader extends Component<Props> {
                     ))}
                   </ul>
                 )}
-              </li> */}
+              </li> }
               <li className="DesktopHeader-bottom-links-item">
                 <Link to="/generate">
                   <i className="fa fa-plus create-icon" /> {translateRaw('NEW_HEADER_TEXT_6')}

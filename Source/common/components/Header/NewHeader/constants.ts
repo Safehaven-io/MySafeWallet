@@ -39,7 +39,7 @@ export const LINKSET = {
       to: '/sign-and-verify-message',
       title: translateRaw('NEW_HEADER_TEXT_13')
     },
-    {
+    /*{
       to: '/contracts',
       title: translateRaw('NEW_HEADER_TEXT_14')
     },
@@ -54,6 +54,6 @@ export const LINKSET = {
     {
       to: '/ens',
       title: translateRaw('NEW_HEADER_TEXT_17')
-    }
+    }*/
   ]
 };

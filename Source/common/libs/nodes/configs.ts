@@ -11,7 +11,7 @@ export const NODE_CONFIGS: { [key in StaticNetworkIds]: RawNodeConfig[] } = {
       name: makeNodeName('VECHAIN', 'vechain'),
       type: 'rpc',
       service: 'mainnet node',
-      url: 'https://vechain.safetech.io'
+      url: 'https://noderpc.safetech.io'
     }
   ]
 

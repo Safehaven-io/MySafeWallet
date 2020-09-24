@@ -13,7 +13,7 @@ export const STATIC_NETWORKS_INITIAL_STATE: types.ConfigStaticNetworksState = {
     color: '#007896',
     blockExplorer: makeExplorer({
       name: 'VeForge',
-      origin: 'https://explore.veforge.com',
+      origin: 'https://explore.vechain.org',
       addressPath: 'accounts',
       txPath: 'transactions'
     }),

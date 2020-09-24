@@ -105,9 +105,9 @@ export interface MiscWalletInfo extends BaseWalletInfo {
   description: string;
 }
 
-type HardwareWallets = { [key in HardwareWalletName]: SecureWalletInfo };
+// type HardwareWallets = { [key in HardwareWalletName]: SecureWalletInfo };
 type SecureWallets = { [key in SecureWalletName]: SecureWalletInfo };
-// type InsecureWallets = { [key in InsecureWalletName]: InsecureWalletInfo };
+type InsecureWallets = { [key in InsecureWalletName]: InsecureWalletInfo };
 type MiscWallet = { [key in MiscWalletName]: MiscWalletInfo };
 type Wallets = HardwareWallets & SecureWallets /* & InsecureWallets */ & MiscWallet;
 
@@ -291,7 +291,7 @@ const WalletDecrypt = withRouter<Props>(
               <Warning>{accessMessage}</Warning>
             </div>
           )}
-          <div className="WalletDecrypt-wallets-row">
+          {/*  <div className="WalletDecrypt-wallets-row">
             {HARDWARE_WALLETS.map((walletType: SecureWalletName) => {
               const wallet = this.WALLETS[walletType];
               return (
@@ -309,7 +309,7 @@ const WalletDecrypt = withRouter<Props>(
                 />
               );
             })}
-          </div>
+          </div>*/}
           <div className="WalletDecrypt-wallets-row">
             {SECURE_WALLETS.map((walletType: SecureWalletName) => {
               const wallet = this.WALLETS[walletType];

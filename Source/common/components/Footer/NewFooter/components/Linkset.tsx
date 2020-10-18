@@ -8,24 +8,24 @@ const LINK_COLUMNS = [
     heading: translateRaw('NEW_FOOTER_TEXT_6'),
     links: [
       {
-        title: 'SafeTech.io',
-        link: 'https://www.safetech.io/'
+        title: translateRaw('SafeHaven.io'),
+         link: 'https://Safehaven.io'
       },
       {
         title: translateRaw('NEW_FOOTER_TEXT_7'),
-        link: 'https://github.com/safehaven-io/MySafeWallet/'
+        link: 'https://id.safetech.io'
       },
-      // {
-      //   title: translateRaw('NEW_FOOTER_TEXT_8'),
-      //   link: 'https://about.mysafewallet.io/'
-      // },
-      // {
-      //   title: translateRaw('NEW_FOOTER_TEXT_9'),
-      //   link: 'mailto://press@mysafewallet.io'
-      // },
+       {
+         title: 'Inheriti.com',
+        link: 'https://inheriti.com/'
+       },
+       {
+         title: translateRaw('SafeKey Shop'),
+         link: 'https://shop.safetech.io'
+       },
       {
         title: translateRaw('NEW_FOOTER_TEXT_10'),
-        link: 'https://github.com/safehaven-io/MySafeWallet'
+        link: 'https://cometpowered.com/'
       }
     ]
   },
@@ -50,8 +50,8 @@ const LINK_COLUMNS = [
     heading: translateRaw('NEW_FOOTER_TEXT_12'),
     links: [
       {
-        title: 'Safehaven.io',
-        link: 'https://Safehaven.io'
+        title: 'SafeNode',
+        link: 'https://stats.safenode.io'
       },
       {
         title: 'Trustalliance.network',
@@ -59,11 +59,11 @@ const LINK_COLUMNS = [
       },
       {
         title: 'Thorblock.io',
-        link: 'https://Thorblock.io/'
+        link: 'https://portal.thorblock.io/'
       },
       {
-        title: 'Shop',
-        link: 'https://Shop.safetech.io'
+        title: 'FundRequest',
+        link: 'https://fundrequest.io'
       }
     ]
   }

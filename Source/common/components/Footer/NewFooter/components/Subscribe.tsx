@@ -16,7 +16,6 @@ export default class Subscribe extends Component {
             {translate('NEW_FOOTER_TEXT_3')}
           </a>
         </h2>
-        
         {/* <form onSubmit={this.subscribe} className="Subscribe-input-wrapper">
           <section className="Subscribe-input-wrapper-input">
             <input
